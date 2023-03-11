@@ -31,20 +31,28 @@
       <div class="row">
         <div class="col-xsm">
           <div class="input-group mb-3">
-            <input
+            <input id="search-city-input"
               type="text"
               class="form-control"
               placeholder="Search..."
               aria-label="Search"
               aria-describedby="basic-addon2"
             />
-            <div id="search-weather" class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button">
+            <div class="input-group-append">
+              <button
+                id="search-city-btn"
+                class="btn btn-outline-secondary"
+                type="button"
+              >
                 Search
               </button>
             </div>
           </div>
-          <button id="clear-history" type="button" class="btn btn-sm btn-secondary">
+          <button
+            id="clear-history-btn"
+            type="button"
+            class="btn btn-sm btn-secondary"
+          >
             Clear History
           </button>
           <hr />
@@ -60,6 +68,7 @@
           <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 id="currentcon-city" class="display-4">Salt Lake City</h1>
+              <h4 id="currentcon-date" class="text-muted">Today's Date</h4>
               <hr />
               <div class="container">
                 <div class="row">
@@ -81,70 +90,125 @@
           <div class="col-sm">
             <div class="card bg-light" style="width: 10rem">
               <div class="card-body">
-                <h5 id="forcast-date-1"  class="card-title">Date 1</h5>
+                <h5 id="forcast-date-1" class="card-title">Date 1</h5>
                 <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <h6 class="card-subtitle mb-2 text-muted">icon</h6>
                 <hr />
-                <h6 id="forcast-temp-1" class="card-subtitle mb-2 text-muted">Temperature</h6>
-                <h6 id="forcast-humidity-1" class="card-subtitle mb-2 text-muted">Humidity</h6>
-                <h6 id="forcast-wind-1" class="card-subtitle mb-2 text-muted">Wind</h6>
-                <h6 id="forcast-uvi-1" class="card-subtitle mb-2 text-muted">UV Index</h6>
+                <h6 id="forcast-temp-1" class="card-subtitle mb-2 text-muted">
+                  Temperature
+                </h6>
+                <h6
+                  id="forcast-humidity-1"
+                  class="card-subtitle mb-2 text-muted"
+                >
+                  Humidity
+                </h6>
+                <h6 id="forcast-wind-1" class="card-subtitle mb-2 text-muted">
+                  Wind
+                </h6>
+                <h6 id="forcast-uvi-1" class="card-subtitle mb-2 text-muted">
+                  UV Index
+                </h6>
               </div>
             </div>
           </div>
           <div class="col-sm">
             <div class="card bg-light" style="width: 10rem">
               <div class="card-body">
-                <h5 id="forcast-date-2"  class="card-title">Date 2</h5>
+                <h5 id="forcast-date-2" class="card-title">Date 2</h5>
                 <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <h6 class="card-subtitle mb-2 text-muted">icon</h6>
                 <hr />
-                <h6 id="forcast-temp-2" class="card-subtitle mb-2 text-muted">Temperature</h6>
-                <h6 id="forcast-humidity-2" class="card-subtitle mb-2 text-muted">Humidity</h6>
-                <h6 id="forcast-wind-2" class="card-subtitle mb-2 text-muted">Wind</h6>
-                <h6 id="forcast-uvi-2" class="card-subtitle mb-2 text-muted">UV Index</h6>
+                <h6 id="forcast-temp-2" class="card-subtitle mb-2 text-muted">
+                  Temperature
+                </h6>
+                <h6
+                  id="forcast-humidity-2"
+                  class="card-subtitle mb-2 text-muted"
+                >
+                  Humidity
+                </h6>
+                <h6 id="forcast-wind-2" class="card-subtitle mb-2 text-muted">
+                  Wind
+                </h6>
+                <h6 id="forcast-uvi-2" class="card-subtitle mb-2 text-muted">
+                  UV Index
+                </h6>
               </div>
             </div>
           </div>
           <div class="col-sm">
             <div class="card bg-light" style="width: 10rem">
               <div class="card-body">
-                <h5 id="forcast-date-3"  class="card-title">Date 3</h5>
+                <h5 id="forcast-date-3" class="card-title">Date 3</h5>
                 <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <h6 class="card-subtitle mb-2 text-muted">icon</h6>
                 <hr />
-                <h6 id="forcast-temp-3" class="card-subtitle mb-2 text-muted">Temperature</h6>
-                <h6 id="forcast-humidity-3" class="card-subtitle mb-2 text-muted">Humidity</h6>
-                <h6 id="forcast-wind-3" class="card-subtitle mb-2 text-muted">Wind</h6>
-                <h6 id="forcast-uvi-3" class="card-subtitle mb-2 text-muted">UV Index</h6>
+                <h6 id="forcast-temp-3" class="card-subtitle mb-2 text-muted">
+                  Temperature
+                </h6>
+                <h6
+                  id="forcast-humidity-3"
+                  class="card-subtitle mb-2 text-muted"
+                >
+                  Humidity
+                </h6>
+                <h6 id="forcast-wind-3" class="card-subtitle mb-2 text-muted">
+                  Wind
+                </h6>
+                <h6 id="forcast-uvi-3" class="card-subtitle mb-2 text-muted">
+                  UV Index
+                </h6>
               </div>
             </div>
           </div>
           <div class="col-sm">
             <div class="card bg-light" style="width: 10rem">
               <div class="card-body">
-                <h5 id="forcast-date-4"  class="card-title">Date 4</h5>
+                <h5 id="forcast-date-4" class="card-title">Date 4</h5>
                 <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <h6 class="card-subtitle mb-2 text-muted">icon</h6>
                 <hr />
-                <h6 id="forcast-temp-4" class="card-subtitle mb-2 text-muted">Temperature</h6>
-                <h6 id="forcast-humidity-4" class="card-subtitle mb-2 text-muted">Humidity</h6>
-                <h6 id="forcast-wind-4" class="card-subtitle mb-2 text-muted">Wind</h6>
-                <h6 id="forcast-uvi-4" class="card-subtitle mb-2 text-muted">UV Index</h6>
+                <h6 id="forcast-temp-4" class="card-subtitle mb-2 text-muted">
+                  Temperature
+                </h6>
+                <h6
+                  id="forcast-humidity-4"
+                  class="card-subtitle mb-2 text-muted"
+                >
+                  Humidity
+                </h6>
+                <h6 id="forcast-wind-4" class="card-subtitle mb-2 text-muted">
+                  Wind
+                </h6>
+                <h6 id="forcast-uvi-4" class="card-subtitle mb-2 text-muted">
+                  UV Index
+                </h6>
               </div>
             </div>
           </div>
           <div class="col-sm">
             <div class="card bg-light" style="width: 10rem">
               <div class="card-body">
-                <h5 id="forcast-date-5"  class="card-title">Date 5</h5>
+                <h5 id="forcast-date-5" class="card-title">Date 5</h5>
                 <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <h6 class="card-subtitle mb-2 text-muted">icon</h6>
                 <hr />
-                <h6 id="forcast-temp-5" class="card-subtitle mb-2 text-muted">Temperature</h6>
-                <h6 id="forcast-humidity-5" class="card-subtitle mb-2 text-muted">Humidity</h6>
-                <h6 id="forcast-wind-5" class="card-subtitle mb-2 text-muted">Wind</h6>
-                <h6 id="forcast-uvi-5" class="card-subtitle mb-2 text-muted">UV Index</h6>
+                <h6 id="forcast-temp-5" class="card-subtitle mb-2 text-muted">
+                  Temperature
+                </h6>
+                <h6
+                  id="forcast-humidity-5"
+                  class="card-subtitle mb-2 text-muted"
+                >
+                  Humidity
+                </h6>
+                <h6 id="forcast-wind-5" class="card-subtitle mb-2 text-muted">
+                  Wind
+                </h6>
+                <h6 id="forcast-uvi-5" class="card-subtitle mb-2 text-muted">
+                  UV Index
+                </h6>
               </div>
             </div>
           </div>
