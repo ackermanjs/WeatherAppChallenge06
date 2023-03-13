@@ -21,16 +21,10 @@ var icon = document.getElementById('icon');
 // renderSearchHistory = () => {
 //   var history = localStorage.getItem("lastSearch");
 //   console.log(history);
-
 // var lastSearchButton = document.createElement("BUTTON");
 // var t = document.createTextNode(lastSearch);
 // lastSearchButton.appendChild(t);
 // document.body.appendChild(lastSearchButton);
-
-// document.querySelector("#search-history").textContent =
-//   document.createElement("BUTTON");
-// button.value = history;
-// button.textContent = history;
 // };
 
 //call the api with url
@@ -140,8 +134,3 @@ searchButton.addEventListener("click", function (event) {
   queryWeatherAPI();
 });
 
-// const dayjs = require('dayjs');
-// //import dayjs from 'dayjs' // ES 2015
-// dayjs().format()
-
-// url construstion : http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}
