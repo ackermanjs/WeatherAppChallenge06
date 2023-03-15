@@ -29,7 +29,7 @@ var icon = document.getElementById('icon');
 
 //call the api with url
 queryWeatherAPI = () => {
-  var iconUrl = "https://openweathermap.org/img/wn/";
+  // var iconUrl = "https://openweathermap.org/img/wn/";
   var cityInput = document.querySelector("#search-city-input").value;
 
   //openweather url constructed with my variables for the cityinput and apikey, gets lon and lat
@@ -129,8 +129,6 @@ queryWeatherAPI = () => {
 //click function for search button
 searchButton.addEventListener("click", function (event) {
   event.preventDefault();
-  // saveLastSearch();
-  // renderSearchHistory();
   queryWeatherAPI();
 });
 
