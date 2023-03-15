@@ -25,7 +25,7 @@ Load the page from the link and use the search function to query your city. It w
 # Author
 This app was created by Jeffrey Ackerman with the help of the Google search engine and YouTube.
 <br>
-Github: https://github.com/ackermanjs/PasswordGeneratorChallenge3
+Github: https://github.com/ackermanjs
 
 # License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
