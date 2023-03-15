@@ -12,6 +12,8 @@ Load the page from the link and use the search function to query your city. It w
 <br>
 
 ![Screenshot (45)](https://user-images.githubusercontent.com/66087068/224806279-2b6b6508-f85c-45d3-8b61-f4fe2e04340f.png)
+![Screenshot (46)](https://user-images.githubusercontent.com/66087068/225422329-cfecd31b-2de3-4868-8fd0-4f5211b237e2.png)
+![Screenshot (47)](https://user-images.githubusercontent.com/66087068/225422434-72ea2799-6c1a-46fe-8d34-0d2ea8e6d012.png)
 
 # Technology Used
 - HTML
@@ -27,3 +29,5 @@ Github: https://github.com/ackermanjs/PasswordGeneratorChallenge3
 
 # License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
