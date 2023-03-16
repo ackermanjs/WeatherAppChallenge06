@@ -33,7 +33,7 @@ queryWeatherAPI = () => {
   var cityInput = document.querySelector("#search-city-input").value;
 
   //openweather url constructed with my variables for the cityinput and apikey, gets lon and lat
-  var openweatherURL = `http://api.openweathermap.org/geo/1.0/direct?q=${cityInput}&limit=3&appid=${myAPIKey}`;
+  var openweatherURL = `https://api.openweathermap.org/geo/1.0/direct?q=${cityInput}&limit=3&appid=${myAPIKey}`;
   fetch(openweatherURL)
     .then((response) => response.json())
     .then(function (result) {
